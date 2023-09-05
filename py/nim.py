@@ -1,3 +1,13 @@
+# GOAL:
+# Be the player to remove the last stone.
+# RULES: * bag contains 12 stones initially * a move consists of removing 1-3 stones from the bag
+
+# YOUR CODING MISSION:
+# Write a program that will allow a human at console to play against your “AI” a game of NIM.
+# prompt user for number of stones they wish to remove each turn
+# tell user how many stones the AI removed and how many stones remain
+# facilitate play until human or AI wins, and announce winner
+
 from random import randint
 
 def take_player_turn():
